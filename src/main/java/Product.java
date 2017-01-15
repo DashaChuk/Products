@@ -38,4 +38,14 @@ public class Product {
     public void setSummaryPrice(Integer summaryPrice) {
         this.summaryPrice = summaryPrice;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", category='" + category + '\'' +
+                ", fixedPrice=" + fixedPrice +
+                ", summaryPrice=" + summaryPrice +
+                '}';
+    }
 }
